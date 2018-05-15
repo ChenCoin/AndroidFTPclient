@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/circlebgr"
+        android:elevation="8dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ViewStub
+                android:id="@+id/siteHome"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/sitehome" />
+
+            <ViewStub
+                android:id="@+id/siteEdit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/siteedit" />
+
+            <ViewStub
+                android:id="@+id/siteMenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/sitemenu" />
+
+            <ViewStub
+                android:id="@+id/siteConfirm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/confirm" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</GridLayout>

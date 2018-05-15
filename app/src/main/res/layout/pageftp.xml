@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/circlebgr"
+        android:elevation="8dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ViewStub
+                android:id="@+id/ftpHome"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/ftphome" />
+
+            <ViewStub
+                android:id="@+id/ftpMenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/ftpmenu" />
+
+            <ViewStub
+                android:id="@+id/ftpRename"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/ftprename" />
+
+            <ViewStub
+                android:id="@+id/ftpConfirm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/confirm" />
+
+            <ViewStub
+                android:id="@+id/ftpDetail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/ftpdetail" />
+        </FrameLayout>
+
+    </LinearLayout>
+</GridLayout>

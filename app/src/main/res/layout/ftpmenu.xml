@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80999999"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:id="@+id/menuPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="@string/menu"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/menuattr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbtn"
+            android:text="@string/about"
+            android:textColor="@color/gray" />
+
+        <Button
+            android:id="@+id/menurename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbtn"
+            android:text="@string/rename"
+            android:textColor="@color/gray" />
+
+        <Button
+            android:id="@+id/menudelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbtn"
+            android:text="@string/delete"
+            android:textColor="@color/gray" />
+
+        <Button
+            android:id="@+id/menudownload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbtn"
+            android:text="@string/download"
+            android:textColor="@color/gray" />
+
+        <Button
+            android:id="@+id/menuupload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbtn"
+            android:text="@string/upload"
+            android:textColor="@color/gray" />
+
+        <Button
+            android:id="@+id/menucancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbtn"
+            android:text="@string/cancel"
+            android:textColor="@color/blue" />
+
+    </LinearLayout>
+
+</LinearLayout>

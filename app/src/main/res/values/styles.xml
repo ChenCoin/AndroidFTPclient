@@ -1,0 +1,106 @@
+<resources>
+    <attr name="lightText" format="reference|color" />
+    <attr name="iconColor" format="reference|color" />
+    <attr name="pageBgr" format="reference|color" />
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/bgr</item>
+        <item name="android:statusBarColor">@color/bgr</item>
+        <item name="android:windowBackground">@color/bgr</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="lightText">@color/gray</item>
+        <item name="iconColor">@color/blue</item>
+        <item name="pageBgr">@color/white</item>
+
+    </style>
+
+    <style name="blue" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/bgr</item>
+        <item name="android:statusBarColor">@color/bgr</item>
+        <item name="android:windowBackground">@color/bgr</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="lightText">@color/gray</item>
+        <item name="iconColor">@color/blue</item>
+        <item name="pageBgr">@color/white</item>
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="GrayTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowBackground">@color/black</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/white</item>
+
+        <item name="lightText">@color/white</item>
+        <item name="iconColor">@color/gray</item>
+        <item name="pageBgr">@color/gray</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="GreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/green</item>
+        <item name="android:statusBarColor">@color/green</item>
+        <item name="android:windowBackground">@color/green</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/green</item>
+
+        <item name="lightText">@color/gray</item>
+        <item name="iconColor">@color/green</item>
+        <item name="pageBgr">@color/white</item>
+    </style>
+
+    <string-array name="coding">
+        <item>UTF-8</item>
+        <item>GBK</item>
+        <item>SHIFT-JIS</item>
+        <item>EUC-JP</item>
+        <item>CP1251</item>
+        <item>EUC-KR</item>
+        <item>BIG5</item>
+        <item>CP1250</item>
+        <item>CP1255</item>
+        <item>ISO-8859-1</item>
+        <item>ISO-8859-7</item>
+    </string-array>
+
+    <string-array name="sort">
+        <item>名称</item>
+        <item>日期</item>
+        <item>大小</item>
+        <item>类型</item>
+    </string-array>
+
+    <string-array name="show">
+        <item>普通图标</item>
+        <item>大图标</item>
+        <item>简单列表</item>
+        <item>详细列表</item>
+    </string-array>
+
+    <string-array name="myTheme">
+        <item>经典</item>
+        <item>蓝色</item>
+        <item>绿色</item>
+        <item>黑色</item>
+    </string-array>
+
+</resources>
